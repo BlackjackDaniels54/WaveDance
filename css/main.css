@@ -1,0 +1,676 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;1,300;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quantico:wght@700&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    height: 3000px;
+}
+div{
+    box-sizing: border-box;
+}
+
+.logo {
+
+    margin-top: 15px;
+    margin-bottom: -30px;
+    width: 116px;
+    height: 68px;
+    
+    }
+
+ .little {
+
+    float: right;
+ }
+
+  .menu {
+
+    padding: 0;
+    margin: 0;
+    display: block;
+ }
+
+ .menu li{
+    
+    font-family: montserrat;
+    
+}
+
+.little {
+    padding: 0;
+    margin: 0;
+    display: block;
+    margin-top: 20px;
+}
+
+.menu li {
+    float: left;
+    display: block;
+
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+
+.menu a {
+
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+.topbuttons {
+    
+    float: right;
+    margin-top: -5px;
+    margin-left: 10px;
+   
+    margin-right: 8px;
+    
+}
+
+.Search {
+    
+
+    width: 30px;
+    height: 30px;
+}
+.Profile {
+    
+
+
+    width: 30px;
+    height: 30px;
+}
+.Basket {
+   
+     
+    width: 30px;
+    height: 30px;
+}
+
+
+.big a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.big a {
+    display: inline;
+}
+
+.big {
+    margin-top: -20px;
+    text-align: center;
+}
+
+.menu2 a {
+
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: montserrat;
+    font-weight: 900;
+    font-size: 25px;
+    margin-left: 50px;
+    position: relative;
+
+
+}
+
+.menu2 a::before {
+    content: '';
+    bottom: -3px ;
+    left:0 ;
+    position: absolute ;
+    width: 100%;
+    height: 3px ;
+    background-color: black ;
+    transition: 0.3s;
+    transform: scaleX(0);
+}
+
+.menu2 a:hover:before {
+  width: 100%;
+  transform: scaleX(1.0);
+}
+
+
+
+.trend {
+text-align: center;
+text-transform: uppercase;
+font-family: montserrat;
+font-style: 900;
+font-size: 50px;
+margin-top: 100px;
+letter-spacing: 30px;
+
+}
+.sign {
+    float: left; /* Выравнивание по правому краю */
+     /* Параметры рамки */
+     /* Поля внутри блока */
+    margin: 0 0 0 0; /* Отступы вокруг */
+     /* Цвет фона */ 
+   }
+   .sign figcaption {
+    margin: 0 auto; 
+    text-align: center;
+    margin-left: 100px;
+    font-family: montserrat;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 7px;
+    margin-top: 40px;
+   }
+
+   .sign2 {
+    float: left; /* Выравнивание по правому краю */
+     /* Параметры рамки */
+     /* Поля внутри блока */
+    margin: 0 0 0 0; /* Отступы вокруг */
+     /* Цвет фона */ 
+   }
+   .sign2 figcaption {
+    margin: 0 auto; 
+    text-align: center;
+    margin-left: 100px;
+    font-family: montserrat;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 7px;
+    margin-top: 40px;
+   }
+   .sign3 {
+    float: left; /* Выравнивание по правому краю */
+     /* Параметры рамки */
+     /* Поля внутри блока */
+    margin: 0 0 0 0; /* Отступы вокруг */
+     /* Цвет фона */ 
+   }
+   .sign3 figcaption {
+    margin: 0 auto; 
+    text-align: center;
+    margin-left: 100px;
+    font-family: montserrat;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 7px;
+    margin-top: 40px;
+   }
+   .sign4 {
+    float: left; /* Выравнивание по правому краю */
+     /* Параметры рамки */
+     /* Поля внутри блока */
+    margin: 0 0 0 0; /* Отступы вокруг */
+     /* Цвет фона */ 
+   }
+   .sign4 figcaption {
+    margin: 0 auto; 
+    text-align: center;
+    margin-left: 100px;
+    font-family: montserrat;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 7px;
+    margin-top: 40px;
+   }
+
+.midbuttons {
+ margin-left:90px ;
+ 
+ 
+
+}
+
+.boy {
+margin-top: 150px;
+width: 320px;
+height: 400px;
+}
+
+.both{
+    margin-top: 150px;
+width: 320px;
+height: 400px;
+
+}
+
+.girl {
+    margin-top: 150px;
+
+width: 320px;
+height: 400px;
+
+}
+
+.nekit 
+{
+margin-top: 150px;
+
+width: 320px;
+height: 400px;
+
+}
+
+
+.nekit{
+opacity: 1; /* Значение прозрачности */
+filter: alpha(Opacity=100);
+transition: 0.4s; /* Прозрачность в IE */
+}
+
+
+.nekit:hover{
+opacity: 0.50; /* Значение прозрачности */
+filter: alpha(Opacity=50); /* Прозрачность в IE */
+}
+
+.girl{
+opacity: 1; /* Значение прозрачности */
+filter: alpha(Opacity=100);
+transition: 0.4s; /* Прозрачность в IE */
+}
+
+
+.girl:hover{
+opacity: 0.50; /* Значение прозрачности */
+filter: alpha(Opacity=50); /* Прозрачность в IE */
+}
+
+.both{
+opacity: 1; /* Значение прозрачности */
+filter: alpha(Opacity=100);
+transition: 0.4s; /* Прозрачность в IE */
+}
+
+
+.both:hover{
+opacity: 0.50; /* Значение прозрачности */
+filter: alpha(Opacity=50); /* Прозрачность в IE */
+}
+
+.boy{
+opacity: 1; /* Значение прозрачности */
+filter: alpha(Opacity=100);
+transition: 0.4s; /* Прозрачность в IE */
+}
+
+.boy:hover{
+opacity: 0.50; /* Значение прозрачности */
+filter: alpha(Opacity=50); /* Прозрачность в IE */
+
+}
+
+
+
+.container1 {
+
+ height: 1271px;
+ background: url('../img/back.jpg') no-repeat center top;
+ 
+
+}
+
+.text {
+   
+   margin-left: 95px;
+   padding-top: 100px;
+   font-family: Quantico;
+   font-size: 100px;
+   color: transparent;
+   text-transform: uppercase;
+    -webkit-text-stroke: 2px #ffffff;
+    letter-spacing: 30px;
+    
+
+}
+
+
+
+
+
+.container {
+width: 1720px;
+margin: 0 auto;
+
+  }
+ .container4 {
+    background: #f0eded;
+    margin-top:800px ;
+    width: 1920px center top cover;
+    height: 700px;
+    
+}
+
+
+
+
+
+.signature {
+    float: left; /* Выравнивание по правому краю */
+     /* Параметры рамки */
+     /* Поля внутри блока */
+    margin: 0 0 0 0; /* Отступы вокруг */
+     /* Цвет фона */ 
+   }
+   .signature figcaption {
+    margin: 0 auto; 
+    text-align: center;
+    margin-left: 210px;
+    font-family: montserrat;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 7px;
+    margin-top: 40px;
+   }
+
+   .signature2 {
+    float: left; /* Выравнивание по правому краю */
+     /* Параметры рамки */
+     /* Поля внутри блока */
+    margin: 0 0 0 0; /* Отступы вокруг */
+     /* Цвет фона */ 
+   }
+   .signature2 figcaption {
+    margin: 0 auto; 
+    text-align: center;
+    margin-left: 220px;
+    font-family: montserrat;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 7px;
+    margin-top: 40px;
+   }
+   .signature3 {
+    float: left; /* Выравнивание по правому краю */
+     /* Параметры рамки */
+     /* Поля внутри блока */
+    margin: 0 0 0 0; /* Отступы вокруг */
+     /* Цвет фона */ 
+   }
+   .signature3 figcaption {
+    margin: 0 auto; 
+    text-align: center;
+    margin-left: 220px;
+    font-family: montserrat;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 7px;
+    margin-top: 40px;
+   }
+ 
+.sales {
+ margin-left:230px ;
+ 
+ 
+
+}
+
+.max {
+margin-top: 150px;
+width: 320px;
+height: 320px;
+
+}
+
+.nastya{
+    margin-top: 150px;
+width: 320px;
+height: 320px;
+
+}
+
+.dima {
+    margin-top: 150px;
+
+width: 320px;
+height: 320px;
+
+}
+
+
+
+
+.max{
+opacity: 1; /* Значение прозрачности */
+filter: alpha(Opacity=100);
+transition: 0.4s; /* Прозрачность в IE */
+}
+
+
+.max:hover{
+opacity: 0.50; /* Значение прозрачности */
+filter: alpha(Opacity=50); /* Прозрачность в IE */
+}
+
+.nastya{
+opacity: 1; /* Значение прозрачности */
+filter: alpha(Opacity=100);
+transition: 0.4s; /* Прозрачность в IE */
+}
+
+
+.nastya:hover{
+opacity: 0.50; /* Значение прозрачности */
+filter: alpha(Opacity=50); /* Прозрачность в IE */
+}
+
+.dima{
+opacity: 1; /* Значение прозрачности */
+filter: alpha(Opacity=100);
+transition: 0.4s; /* Прозрачность в IE */
+}
+
+
+.dima:hover{
+opacity: 0.50; /* Значение прозрачности */
+filter: alpha(Opacity=50); /* Прозрачность в IE */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  footer {
+margin-top: 300px;
+width: 1720px center top cover;
+height: 370px;
+
+background: #000;
+
+  }
+
+.shop2 {
+  margin-top: 40px;
+  margin-left: 100px;
+   width: 116px;
+    height: 68px;
+
+}
+
+.we {
+  margin-left: 60px;
+  margin-top: 500px;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 900;
+  font-family: montserrat;
+}
+
+.we:hover{
+    color: #d8d8d8;
+}
+
+.support  {
+
+text-align: left;
+margin-left: 400px;
+margin-top: -100px;
+font-size: 10px;
+font-family: montserrat;
+font-weight: 200;
+line-height: 3;
+
+letter-spacing: 7px;
+}
+
+.support a{
+
+color: white;
+text-decoration: none;
+text-transform: uppercase;
+
+}
+
+.support a:hover{
+    color: #d8d8d8;
+}
+.sup  {
+ color: white;
+ text-transform: uppercase;
+ font-weight: 900;
+ font-size: 11px;
+
+}
+
+.account {
+    text-align: left;
+    margin-left: 1000px;
+    margin-top: -185px;
+    
+    text-transform: uppercase;
+    font-size: 10px;
+    font-family: montserrat;
+    font-weight: 200;
+    line-height: 3;
+    letter-spacing: 7px;
+}
+
+.account a {
+    color: white;
+    text-decoration: none;
+}
+.account a:hover{
+    color: #d8d8d8;
+}
+
+.acc {
+   font-size: 11px;
+   font-weight: 900;
+
+}
+
+.soz{
+    margin-right: 100px;
+
+}
+
+.soz h1{
+   text-align: right;
+   color: white;
+   
+   font-family: montserrat;
+   letter-spacing: 10px;
+   font-weight: 200;
+   font-size: 20px;
+   margin-top: 100px;
+}
+
+.botbuttons {
+
+ float: right;
+ margin-right:35px ;
+ margin-top: 30px;
+
+}
+
+.Youtube {
+    margin-top: 3px;
+width: 30px;
+height: 23px;
+transition: 0.3s;
+
+}
+.Youtube:hover {
+opacity: 0.5; /* Значение прозрачности */
+filter: alpha(Opacity=50);
+
+}
+
+.Facebook {
+    width: 35px;
+    height: 35px;
+    
+transition: 0.3S;
+}
+.Facebook:hover{
+opacity: 0.5; /* Значение прозрачности */
+filter: alpha(Opacity=50);
+
+}
+
+.instagram {
+    width: 25px;
+    height: 25px;
+    transition:0.3s ;
+}
+
+.instagram:hover{
+opacity: 0.5; /* Значение прозрачности */
+filter: alpha(Opacity=50);
+}
+ .Telegram {
+    width: 28px;
+    height: 25px;
+    transition: 0.3s;
+ }
+
+ .Telegram:hover{
+opacity: 0.5; /* Значение прозрачности */
+filter: alpha(Opacity=50);
+
+ }
+
+
+
+
+
+
+
